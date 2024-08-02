@@ -64,8 +64,8 @@ jobs:
         # git_clone2 URL_REPO NAMA_PACKAGE >> Tutor Untuk No 2 Di Atas
         # Tunnel
         git_clone2 https://github.com/vernesong/OpenClash luci-app-openclash && mv -n OpenClash/luci-app-openclash ./; rm -rf OpenClash
-        git_clone2 https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n openwrt-passwall/luci-app-passwall ./; rm -fr openwrt-passwall
-        git_clone2 https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n openwrt-passwall2/luci-app-passwall2 ./; rm -fr openwrt-passwall2
+        # git_clone2 https://github.com/rtaserver/openwrt-passwall luci-app-passwall && mv -n openwrt-passwall/luci-app-passwall ./; rm -fr openwrt-passwall
+        # git_clone2 https://github.com/rtaserver/openwrt-passwall2 luci-app-passwall2 && mv -n openwrt-passwall2/luci-app-passwall2 ./; rm -fr openwrt-passwall2
         git_clone https://github.com/rtaserver/luci-app-homeproxy luci-app-homeproxy
         ) &
         (
